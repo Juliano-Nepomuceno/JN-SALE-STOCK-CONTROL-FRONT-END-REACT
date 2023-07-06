@@ -1,0 +1,19 @@
+const RouterSeller = () =>{
+return(
+
+
+    <Route  path='produto' element={<Protectioroute><Dashboard/></Protectioroute>}>
+  <Route path="listarvendedor"  element={<ListSeller/>}></Route>
+  
+  <Route path="listarproduto/:id"  element={<ListByIDSeller/>}></Route>
+  <Route path="criarvendedor"  element={<CreateSeller/>}></Route>
+  <Route path="atualizarvendedor/:id"  element={<UpdateSeller/>}></Route>
+  <Route path="deletarvendedor/:id"  element={<DeleteSeller/>}></Route>
+  </>
+
+
+)
+
+}
+
+export default RouterSeller

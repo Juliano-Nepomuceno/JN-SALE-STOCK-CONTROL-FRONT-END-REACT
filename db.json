@@ -1,0 +1,821 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "joao",
+      "senha": "abcd"
+    },
+    {
+      "id": 2,
+      "nome": "jose",
+      "senha": "acde"
+    }
+  ],
+  "product": [
+    {
+      "name": "Macarrao",
+      "description": "macarrao instataneo",
+      "expirationdate": "14/10/2025",
+      "category": "massa",
+      "brand": "vilma",
+      "price": "4,50",
+      "id": 1
+    },
+    {
+      "name": "biscoito",
+      "description": "biscoito recheado",
+      "expirationdate": "12/12/2024",
+      "category": "biscoito",
+      "brand": "Nestke",
+      "price": "3,40",
+      "id": 2
+    },
+    {
+      "name": "Refrigerante coca cola",
+      "description": "refrigerante coca cola",
+      "expirationdate": "07/10/2023",
+      "category": "bebida",
+      "brand": "Nestke",
+      "price": "7,50",
+      "id": 3
+    },
+    {
+      "name": "suco Caixa",
+      "description": "Suco em caixa",
+      "expirationdate": "08/09/2023",
+      "category": "Sucos",
+      "brand": "Vale",
+      "price": "5,20",
+      "id": 4
+    }
+  ],
+  "seller": [
+    {
+      "name": "Roberto Alves",
+      "cpf": "1122",
+      "address": "rua abcd",
+      "phone": "1122",
+      "wage": "1400",
+      "admissiondate": "14/03/2005",
+      "username": "rvalves",
+      "id": 1
+    },
+    {
+      "name": "Joao José",
+      "cpf": "1122",
+      "address": "rua abcdaaa",
+      "phone": "1122222",
+      "wage": "1400",
+      "admissiondate": "05/03/2005",
+      "username": "jjosé",
+      "id": 2
+    },
+    {
+      "name": "Alberto Garcia",
+      "cpf": "44455",
+      "address": "rua josé Calos",
+      "phone": "1122222",
+      "wage": "1400",
+      "admissiondate": "05/08/2007",
+      "username": "agarcia",
+      "id": 3
+    },
+    {
+      "name": "Ana Maria",
+      "cpf": "4445544",
+      "address": "rua josé Calos",
+      "phone": "112222244",
+      "wage": "1400",
+      "admissiondate": "05/08/2010",
+      "username": "amaria",
+      "id": 4
+    },
+    {
+      "name": "Antonia Silva",
+      "cpf": "444554444",
+      "address": "rua josé Calos",
+      "phone": "112222244",
+      "wage": "1400",
+      "admissiondate": "05/08/2011",
+      "username": "asilva",
+      "id": 5
+    }
+  ],
+  "client": [
+    {
+      "name": "Roberto Dias",
+      "cpf": "1122",
+      "address": "rua santos de casa",
+      "phone": "1122",
+      "id": 1
+    },
+    {
+      "name": "Alvares Dantas",
+      "cpf": "11222233",
+      "address": "rua cassio ",
+      "phone": "112222",
+      "id": 2
+    },
+    {
+      "name": "Maria Clara",
+      "cpf": "11222233",
+      "address": "rua santos",
+      "phone": "112222222",
+      "id": 3
+    },
+    {
+      "name": "Carla Alvares",
+      "cpf": "11222233",
+      "address": "rua 70",
+      "phone": "112222222",
+      "id": 4
+    }
+  ],
+  "sale": [
+    {
+      "date": "2023-06-27T16:28:36.225Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 4,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 4,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 4
+    },
+    {
+      "date": "2023-06-27T16:29:58.673Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 4,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 4,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 5
+    },
+    {
+      "date": "2023-06-27T16:35:47.572Z",
+      "seller": "Antonia Silva",
+      "client": "Roberto Dias",
+      "products": [
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": null
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50"
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 7,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 6
+    },
+    {
+      "date": "2023-06-27T16:36:13.843Z",
+      "seller": "Alberto Garcia",
+      "client": "Maria Clara",
+      "products": [
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": null
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50"
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 7,
+          "priceUpdate": null
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 8,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 7
+    },
+    {
+      "date": "2023-06-27T16:36:42.252Z",
+      "seller": "Ana Maria",
+      "client": "Roberto Dias",
+      "products": [
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": null
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50"
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 7,
+          "priceUpdate": null
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 8,
+          "priceUpdate": null
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 10,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 11,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 8
+    },
+    {
+      "date": "2023-06-27T20:53:25.220Z",
+      "seller": "Joao José",
+      "client": "Roberto Dias",
+      "products": [
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 7,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 9
+    },
+    {
+      "date": "2023-06-27T20:53:58.282Z",
+      "seller": "Joao José",
+      "client": "Maria Clara",
+      "products": [
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 7,
+          "priceUpdate": null
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50"
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20"
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 8,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 10
+    },
+    {
+      "date": "2023-06-27T20:53:59.442Z",
+      "seller": "Joao José",
+      "client": "Maria Clara",
+      "products": [
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 7,
+          "priceUpdate": null
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50"
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20"
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 8,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 11
+    },
+    {
+      "date": "2023-06-27T20:54:22.355Z",
+      "seller": "Joao José",
+      "client": "Maria Clara",
+      "products": [
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 7,
+          "priceUpdate": null
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50"
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20"
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 8,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 12
+    },
+    {
+      "date": "2023-07-02T16:48:35.219Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 5,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 13
+    },
+    {
+      "date": "2023-07-02T16:49:03.930Z",
+      "seller": "Joao José",
+      "client": "Roberto Dias",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": null
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 5,
+          "priceUpdate": null
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 7,
+          "priceUpdate": null
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 8,
+          "priceUpdate": null
+        }
+      ],
+      "valuetotal": null,
+      "id": 14
+    },
+    {
+      "date": "2023-07-05T20:29:01.721Z",
+      "seller": "Alberto Garcia",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 5,
+          "priceUpdate": 35
+        }
+      ],
+      "valuetotal": 47,
+      "id": 15
+    },
+    {
+      "date": "2023-07-05T20:29:43.738Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 5,
+          "priceUpdate": 35
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40"
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20"
+        }
+      ],
+      "valuetotal": null,
+      "id": 16
+    },
+    {
+      "date": "2023-07-05T20:38:53.315Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": 15
+        }
+      ],
+      "valuetotal": 27,
+      "id": 17
+    },
+    {
+      "date": "2023-07-05T20:40:25.875Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": 15
+        }
+      ],
+      "valuetotal": 27,
+      "id": 18
+    },
+    {
+      "date": "2023-07-05T20:41:43.554Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 5,
+          "priceUpdate": 15
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 7,
+          "priceUpdate": 49
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 9,
+          "priceUpdate": 45
+        }
+      ],
+      "valuetotal": 121,
+      "id": 19
+    },
+    {
+      "date": "2023-07-05T20:51:57.507Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 5,
+          "priceUpdate": 35
+        }
+      ],
+      "valuetotal": 47,
+      "id": 20
+    },
+    {
+      "date": "2023-07-05T20:53:42.931Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 2,
+          "priceUpdate": 8
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 3,
+          "priceUpdate": 15
+        }
+      ],
+      "valuetotal": 23,
+      "id": 21
+    },
+    {
+      "date": "2023-07-05T20:54:07.937Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 2,
+          "priceUpdate": 8
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 3,
+          "priceUpdate": 15
+        }
+      ],
+      "valuetotal": 23,
+      "id": 22
+    },
+    {
+      "date": "2023-07-05T20:59:06.375Z",
+      "seller": "Joao José",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "Refrigerante coca cola",
+          "price": "7,50",
+          "quantity": 5,
+          "priceUpdate": 35
+        }
+      ],
+      "valuetotal": 47,
+      "id": 23
+    },
+    {
+      "date": "2023-07-05T21:05:34.363Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40"
+        }
+      ],
+      "valuetotal": null,
+      "id": 24
+    },
+    {
+      "date": "2023-07-05T21:09:09.272Z",
+      "seller": "Roberto Alves",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 3,
+          "priceUpdate": 12
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40"
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 4,
+          "priceUpdate": 16
+        }
+      ],
+      "valuetotal": null,
+      "id": 25
+    },
+    {
+      "date": "2023-07-05T22:49:19.040Z",
+      "seller": "Joao José",
+      "client": "Maria Clara",
+      "products": [
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 5,
+          "priceUpdate": 25
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 8,
+          "priceUpdate": 24
+        }
+      ],
+      "valuetotal": 49,
+      "id": 26
+    },
+    {
+      "date": "2023-07-05T22:50:00.077Z",
+      "seller": "Joao José",
+      "client": "Alvares Dantas",
+      "products": [
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 5,
+          "priceUpdate": 25
+        },
+        {
+          "name": "biscoito",
+          "price": "3,40",
+          "quantity": 8,
+          "priceUpdate": 24
+        },
+        {
+          "name": "Macarrao",
+          "price": "4,50",
+          "quantity": 10,
+          "priceUpdate": 40
+        },
+        {
+          "name": "suco Caixa",
+          "price": "5,20",
+          "quantity": 14,
+          "priceUpdate": 70
+        }
+      ],
+      "valuetotal": 159,
+      "id": 27
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

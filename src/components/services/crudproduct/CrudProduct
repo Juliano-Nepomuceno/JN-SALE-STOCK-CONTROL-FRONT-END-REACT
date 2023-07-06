@@ -1,0 +1,28 @@
+
+import React from "react";
+
+   //async getListProduct() {
+     //const result = useEffect(() => await {fetch("http://localhost:3004/product/").then(data => data.json()).then(data => setProduct(data)).then(()=> console.log(product))}, [])
+//return result
+  // }
+ export const testeeee = () => {
+   
+   console.log("teste teste");
+  };
+
+  
+
+ 
+  
+
+    
+
+
+    
+
+
+
+
+
+
+
