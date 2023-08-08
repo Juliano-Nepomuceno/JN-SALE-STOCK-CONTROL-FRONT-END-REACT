@@ -1,3 +1,6 @@
+
+HTML, CSS, JAVASCRIPT---REACT(Ant,Bootstrap,api rest simuladacom JSON Server)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
