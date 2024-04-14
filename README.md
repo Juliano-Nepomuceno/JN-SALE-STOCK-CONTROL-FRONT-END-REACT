@@ -1,3 +1,5 @@
+Front-end– HTML, CSS, JAVASCRIPT--- REACT( Ant, Bootstrap)
+
 
 HTML, CSS, JAVASCRIPT---REACT(Ant,Bootstrap,api rest simuladacom JSON Server)
 
